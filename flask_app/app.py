@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
+#from flask_cors import CORS
 from .model import PokeClient
 app = Flask(__name__)
 app.jinja_env.filters['zip'] = zip
