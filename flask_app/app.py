@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.jinja_env.filters['zip'] = zip
 poke_client = PokeClient()
 
-CORS(app, supports_credentials=True)
+#CORS(app, supports_credentials=True)
 
 # We will run the backend in one terminal and the frontend in another terminal
 "=============**************API CODE**************==================="    
